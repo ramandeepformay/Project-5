@@ -26,10 +26,10 @@ $("#search").on("keyup", function(){
             //  using conditionals to check the string present in the caption
             if(dataLower.indexOf(value)>-1){
                 // if present show those elements
-                $(this).show();
+                $(this).css('display', 'block');
             } 
             else{
-                $(this).hide();
+                $(this).css('display', 'none');
             }
         })
     });
