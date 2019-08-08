@@ -19,7 +19,7 @@ $("#search").on("keyup", function(){
     // getting input value
      value = $(this).val().toLowerCase();
     // looping through all the achor tags
-        $("a").each(function(){
+        $(".galleryPhoto a").each(function(){
             //  getting captions
             data = $(this).attr("data-title")
             dataLower = data.toLowerCase();

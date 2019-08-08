@@ -29,10 +29,8 @@ input[type=text]{
     display:flex;
     flex-flow:row wrap;
     justify-content:space-around; 
-
  }
- .galleryPhoto img {
-    width: 100%;
+ .galleryPhoto {
    margin:2%;
  }
 /* styling lightbox effect */
